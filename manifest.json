@@ -1,0 +1,7 @@
+{
+  "runtime":{
+     "majorVersion":"3.6.4"
+},
+  "command": "python podcast.py",
+  "notes": "Simple REST Service"
+}
