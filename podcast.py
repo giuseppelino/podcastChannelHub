@@ -9,16 +9,16 @@ app = Flask(__name__)
 app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'lino.giuseppe.a@gmail.com'  # enter your email here
-app.config['MAIL_DEFAULT_SENDER'] = 'lino.giuseppe.a@gmail.com' # enter your email here
-app.config['MAIL_PASSWORD'] = 'ATB9fgPH' # enter your password here
+app.config['MAIL_USERNAME'] = ''  # enter your email here
+app.config['MAIL_DEFAULT_SENDER'] = '' # enter your email here
+app.config['MAIL_PASSWORD'] = '' # enter your password here
 
 mail = Mail(app)
 
 # Config MySQL
-app.config['MYSQL_HOST'] = '129.158.71.11'
+app.config['MYSQL_HOST'] = ''
 app.config['MYSQL_USER'] = 'mysqladmin'
-app.config['MYSQL_PASSWORD'] = 'ATB9fgPH!@'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'mydatabase'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 # init MySQL
